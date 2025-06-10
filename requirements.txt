@@ -1,0 +1,9 @@
+torch>=2.0
+numpy>=1.24
+pandas>=1.5
+scikit-learn>=1.2
+matplotlib>=3.5
+seaborn>=0.11
+tqdm>=4.60
+einops>=0.6
+rotary-embedding-torch>=0.8
