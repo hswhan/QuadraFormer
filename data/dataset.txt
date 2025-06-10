@@ -1,0 +1,9 @@
+## 📊 Datasets
+
+This project supports the following public workloads:
+
+- **[SDSS Query Log](https://skyserver.sdss.org/log/en/traffic/)**
+- **[BusTracker Workload](https://github.com/linmagit/QueryBot5000)**
+- **[Alibaba Cluster Data](https://github.com/alibaba/clusterdata)**
+
+All datasets should be preprocessed using `Forecaster/data_process.py`.
