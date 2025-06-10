@@ -50,24 +50,17 @@ This will train and/or forecast using the built-in configuration.
 
 ```python
 config = {
-    "mode": "forecast",              # Options: "train", "test", "forecast"
+    "mode": "train",              # Options: "train", "test", "forecast"
     "interval": 1,                   # Lookback in hours
     "data_set": "SDSS",              # Dataset name: SDSS, tiramisu, alibaba
-    "data_path": "processed/SDSS",   # Path to preprocessed data
     "data_type": "hyper",            # Target type: hyper, sql, or resource
     "model_type": "QuadraFormer",    # Model name
-    "processed": "True",
-    "all_col": "True",
-    "less": "True",
-    "QPS": "False",
     "window_size": 16,
     "prediction_length": 16,
     "batch_size": 32,
     "learning_rate": 1e-3,
     "early_stopping": 1e-3,
     "epochs": 20,
-    "input_dim": None,
-    "output_dim": None
 }
 ```
 
