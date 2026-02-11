@@ -1,4 +1,4 @@
-# QuadraFormer: Unified Forecasting of Query Parameters and System Metrics
+# QuadraFormer: Unified Query and Resource Forecasting for Database Workloads
 
 This repository provides the official implementation of the **QuadraFormer** model, proposed in our ICDM 2025 paper. QuadraFormer is designed to jointly forecast SQL query parameters and system-level resource usage (e.g., CPU, memory, QPS) using a unified, multi-attention architecture.
 
